@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(2, 2, 26);
+    color:white;
+    font-family: poppins;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    background-color: rgba(4, 23, 66, 0.425);
+    height:80px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin:0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:White
+}
+nav ul li a:hover{
+    color:deepskyblue;
+    font-size:1.01rem;
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin:50px 0;
+}
+.firstSection >div{
+    /* width:30%; */
+}
+
+.leftSection{
+    /* background-color: red; */
+    font-size:2.5rem;
+    margin:80px 0;
+
+}
+.rightSection img {
+    width:90%;
+    margin:60px 0;
+}
+.sky{
+    color:deepskyblue;
+    font-weight: 600;
+}
+#element{
+    color:deepskyblue
+}
+main hr{
+    border:0;
+    background-color: deepskyblue;
+    height:1.4px;
+    margin:40px 40px;
+}
+.SecondSection{
+    max-width:90vw;
+    margin:auto;
+    height: 60vh;
+    
+}
+.SecondSection .grey{
+    color:rgba(195, 200, 224, 0.453);
+    
+}
+
+.SecondSection .box{
+    background-color: white;
+    height:1px;
+    width:80vw;
+    margin:40px;
+    display: flex;
+    justify-content: space-between;
+}
+.SecondSection .vertical{
+    display: flex;
+    background-color: white;
+    height:50px;
+    width:1px;
+    margin:0 70px 0 70px;
+}
+.SecondSection .vertical img{
+    position: relative;
+    bottom: 25px;
+    right:25px;
+    margin:8px
+}
+.SecondSection .box2{
+    display: flex;
+}
+.SecondSection .box2 .text{
+    
+    width:40%;
+    margin:0 30px 0 20px;
+    font-size:15px;
+    color:gray;
+}
+footer{
+    background-color: rgba(5, 5, 51, 0.393);
+    height:20vh;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+footer .right ul a{
+    text-decoration: none;
+}
+footer .right ul li{
+    list-style: none;
+    color:white
+}
+.cr{
+    background-color: rgba(5, 5, 51, 0.393);
+    display: flex;
+    justify-content: center;
+    width:100%;
+    height:80%;
+}
+
+
